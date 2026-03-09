@@ -22,5 +22,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
         // $this->call(ProvinsiTableSeeder::class);
+        // $this->call(KabupatenTableSeeder::class);
+        // $this->call(KecamatanTableSeeder::class);
+        // $this->call(DesaTableSeeder::class);
     }
 }
