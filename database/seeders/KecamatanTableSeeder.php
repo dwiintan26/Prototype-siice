@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class KecamatanTableSeeder extends Seeder
 {
@@ -16,9 +17,9 @@ class KecamatanTableSeeder extends Seeder
     {
         
 
-        \DB::table('kecamatan')->delete();
+        DB::table('kecamatan')->delete();
         
-        \DB::table('kecamatan')->insert(array (
+        DB::table('kecamatan')->insert(array (
             0 => 
             array (
                 'id_kecamatan' => '1101',
@@ -3020,7 +3021,7 @@ class KecamatanTableSeeder extends Seeder
                 'nama_kecamatan' => 'Wesaput',
             ),
         ));
-        \DB::table('kecamatan')->insert(array (
+        DB::table('kecamatan')->insert(array (
             0 => 
             array (
                 'id_kecamatan' => '9502',
